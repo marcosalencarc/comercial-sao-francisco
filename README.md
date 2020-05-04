@@ -1,11 +1,13 @@
 Repository structure
   
   Backend -> API Rest of application (NodeJS)
+  
   Frontend:
     frontend-client -> Web application for clients access (Angular 8)
     frontend-admin -> Web Application of administration (Angular 8)
   
   mobile -> Mobile application for clients access (Flutter)
+  
   ui-ux -> Designs of project, web, mobile and resources
 
 Softwares

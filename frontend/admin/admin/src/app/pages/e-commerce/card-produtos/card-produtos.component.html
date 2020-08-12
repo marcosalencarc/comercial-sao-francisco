@@ -1,0 +1,37 @@
+<nb-card size="giant">
+  <nb-card-header>
+    <div class="row">
+      <div class="col-md-9">
+        <h2>Produtos</h2>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-primary">+ Novo Produto</button>
+      </div>
+    </div>
+
+  </nb-card-header>
+  <nb-card-body>
+    <div class="row">
+      <nb-select class="col-md-3" placeholder="Selecione a categoria" shape="round">
+        <nb-option value="">Categoria A</nb-option>
+        <nb-option value="1">Categoria B</nb-option>
+      </nb-select>
+
+      <nb-select class="col-md-3" placeholder="Selecione a marca" shape="round">
+        <nb-option value="">Marca A</nb-option>
+        <nb-option value="1">Marca B</nb-option>
+      </nb-select>
+
+      <nb-select class="col-md-3" placeholder="Em estoque" shape="round">
+        <nb-option value="">Estoque A</nb-option>
+        <nb-option value="1">Estoque B</nb-option>
+      </nb-select>
+
+      <input class="col-md-3" type="text" nbInput fullWidth shape="round" placeholder="Buscar">
+
+    </div>
+    <br>
+    <ngx-listar-produtos></ngx-listar-produtos>
+
+  </nb-card-body>
+</nb-card>

@@ -1,0 +1,26 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Código</th>
+      <th scope="col">Nome do Produto</th>
+      <th scope="col">Categoria</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Preço</th>
+      <th scope="col">Estoque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngFor="let produto of produtos">
+      <tr>
+        <td></td>
+        <td>{{produto.codigo}}</td>
+        <td>{{produto.nome}}</td>
+        <td>{{produto.categoria}}</td>
+        <td>{{produto.marca}}</td>
+        <td>R$ {{produto.preco}}</td>
+        <td>{{produto.estoque}}</td>
+      </tr>
+    </ng-container>
+  </tbody>
+</table>

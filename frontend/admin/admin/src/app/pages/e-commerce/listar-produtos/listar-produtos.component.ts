@@ -17,17 +17,6 @@ export class ListarProdutosComponent implements OnInit {
   { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
   { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
   { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-  { codigo: 123, nome: 'Achoc. Chocolatto', categoria: 'Biscoitos e Matinais', marca: '3 corações', preco: '10,30', estoque: '100/120' },
-]
+  ]
 
 }

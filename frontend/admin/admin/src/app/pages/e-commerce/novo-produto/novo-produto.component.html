@@ -1,0 +1,153 @@
+<div class="scrollable">
+  <nb-card size="large">
+    <nb-card-header>Novo produto</nb-card-header>
+    <nb-card-body>
+      <div class="container">
+        <h3>Dados do produto</h3>
+        <hr>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="tres"></div>
+            <button nbButton outline status="primary" shape="round">Adicionar imagem</button>
+          </div>
+          <div class="col-md-9">
+            <form class="form-row">
+              <div class="form-group col-md-6">
+                <label for="nome" class="label">Nome do Produto</label>
+                <input type="text" nbInput fullWidth id="nome" placeholder="Nome do produto">
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="descricao" class="label">Descrição [opcional]</label>
+                <input type="text" nbInput fullWidth id="descricao" placeholder="Descrição do produto">
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="categoria" class="label">Categoria</label>
+                <nb-select fullWidth id="categoria" placeholder="Selecione a categoria">
+                  <nb-option value="">Categoria A</nb-option>
+                  <nb-option value="1">Categoria B</nb-option>
+                </nb-select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="marca" class="label">Marca</label>
+                <nb-select fullWidth id="marca" placeholder="Selecione a marca">
+                  <nb-option value="">Marca A</nb-option>
+                  <nb-option value="1">Marca B</nb-option>
+                </nb-select>
+              </div>
+
+              <div class="form-group col-md-4 ">
+                <label for="peso" class="label">Peso [opcional]</label>
+                <input type="text" nbInput fullWidth id="peso" placeholder="Peso">
+              </div>
+
+              <div class="form-group col-md-6 ">
+                <label for="fornecedor" class="label">Fornecedor</label>
+                <nb-select fullWidth id="fornecedor" placeholder="Selecione o fornecedor">
+                  <nb-option value="">Fornecedor A</nb-option>
+                  <nb-option value="1">Fornecedor B</nb-option>
+                </nb-select>
+              </div>
+
+              <div class="form-group col-md-6 ">
+                <label for="codigoBarra" class="label">Código de barra</label>
+                <input type="text" nbInput fullWidth id="codigoBarra" placeholder="0000 0000 0000 000">
+              </div>
+
+            </form>
+          </div>
+        </div>
+        <br><br>
+
+        <h3>Estoque</h3>
+        <hr>
+        <form class="form-row">
+          <div class="form-group col-md-2">
+            <label for="estoqueMax" class="label">Estoque Máx.</label>
+            <input type="number" nbInput fullWidth id="estoqueMax" placeholder="000">
+          </div>
+
+          <div class="form-group col-md-5">
+            <label for="estoqueMin" class="label">Estoque Min.</label>
+            <input type="number" nbInput fullWidth id="descricao" placeholder="Descrição do produto">
+          </div>
+
+          <div class="form-group col-md-5">
+            <label for="descricao" class="label">Estoque Atual</label>
+            <input type="number" nbInput fullWidth id="descricao" placeholder="Descrição do produto">
+          </div>
+        </form>
+
+        <br><br>
+
+        <h3>Valores</h3>
+        <hr>
+        <form class="form-row">
+          <div class="form-group col-md-2">
+            <label for="estoqueMax" class="label">Custo do Produto</label>
+            <input type="number" nbInput fullWidth id="estoqueMax" placeholder="000">
+          </div>
+
+          <div class="form-group col-md-2">
+            <label for="estoqueMax" class="label">Markup</label>
+            <input type="number" nbInput fullWidth id="estoqueMax" placeholder="000">
+          </div>
+
+          <div class="form-group col-md-2">
+            <label for="estoqueMax" class="label">Preço Sugerido</label>
+            <input type="number" nbInput fullWidth id="estoqueMax" placeholder="000">
+          </div>
+
+          <div class="form-group col-md-2">
+            <label for="estoqueMax" class="label">Preço do Atacado</label>
+            <input type="number" nbInput fullWidth id="estoqueMax" placeholder="000">
+          </div>
+
+          <div class="form-group col-md-2">
+            <label for="estoqueMax" class="label">Preço do Varejo</label>
+            <input type="number" nbInput fullWidth id="estoqueMax" placeholder="000">
+          </div>
+
+          <div class="form-group col-md-2">
+            <label for="estoqueMax" class="label">Comissão</label>
+            <input type="number" nbInput fullWidth id="estoqueMax" placeholder="000">
+          </div>
+
+        </form>
+
+        <br><br>
+
+
+        <h3>Promoção</h3>
+        <hr>
+        <form class="form-row">
+          <div class="form-group col-md-4">
+            <label for="estoqueMax" class="label">Quantidade Promoção</label>
+            <input type="number" nbInput fullWidth id="estoqueMax" placeholder="000">
+          </div>
+
+          <div class="form-group col-md-4">
+            <label for="estoqueMin" class="label">Valor Promoção</label>
+            <input type="number" nbInput fullWidth id="descricao" placeholder="Descrição do produto">
+          </div>
+
+          <div class="col-md-4">
+            <button nbButton outline status="primary" shape="round" size="small" class="botao">Finalizar
+              promoção</button>
+          </div>
+
+        </form>
+
+        <br><br>
+
+      </div>
+
+    </nb-card-body>
+    <nb-card-footer>
+      <button nbButton outline status="primary" shape="round" class="footer">Cancelar</button>
+      <button nbButton status="primary" shape="round" class="footer">Salvar</button>
+    </nb-card-footer>
+  </nb-card>
+</div>

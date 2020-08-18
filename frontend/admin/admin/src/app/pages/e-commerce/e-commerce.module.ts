@@ -9,7 +9,9 @@ import {
   NbSelectModule,
   NbListModule,
   NbInputModule,
-  NbTreeGridModule
+  NbTreeGridModule,
+  NbFormFieldModule,
+  NbAccordionModule
 } from '@nebular/theme';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
@@ -20,6 +22,8 @@ import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { CardProdutosComponent } from './card-produtos/card-produtos.component';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { ListarProdutosComponent } from './listar-produtos/listar-produtos.component';
+import { NovoProdutoComponent } from './novo-produto/novo-produto.component';
+import { CardInfoResumidoProdutosComponent } from './card-info-resumido-produtos/card-info-resumido-produtos.component';
 
 @NgModule({
   imports: [
@@ -37,12 +41,16 @@ import { ListarProdutosComponent } from './listar-produtos/listar-produtos.compo
     LeafletModule,
     NbInputModule,
     NbEvaIconsModule,
-    NbTreeGridModule
+    NbTreeGridModule,
+    NbFormFieldModule,
+    NbAccordionModule
   ],
   declarations: [
     ECommerceComponent,
     CardProdutosComponent,
-    ListarProdutosComponent
+    ListarProdutosComponent,
+    NovoProdutoComponent,
+    CardInfoResumidoProdutosComponent
   ],
 })
 export class ECommerceModule { }

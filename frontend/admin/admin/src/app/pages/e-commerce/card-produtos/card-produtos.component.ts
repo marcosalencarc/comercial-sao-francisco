@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NbDialogService } from '@nebular/theme';
+import { NovoProdutoComponent } from '../novo-produto/novo-produto.component';
 
 @Component({
   selector: 'ngx-card-produtos',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardProdutosComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dialogService: NbDialogService) { }
 
   ngOnInit() {
+  }
+
+  novoProduto() {
+    this.open();
+  }
+
+  protected open() {
+    this.dialogService.open(NovoProdutoComponent, { hasBackdrop: true, hasScroll: true });
   }
 
 }

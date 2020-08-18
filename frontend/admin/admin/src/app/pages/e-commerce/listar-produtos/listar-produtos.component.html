@@ -1,7 +1,6 @@
 <table class="table">
   <thead>
     <tr>
-      <th scope="col"></th>
       <th scope="col">Código</th>
       <th scope="col">Nome do Produto</th>
       <th scope="col">Categoria</th>
@@ -10,17 +9,33 @@
       <th scope="col">Estoque</th>
     </tr>
   </thead>
-  <tbody>
-    <ng-container *ngFor="let produto of produtos">
-      <tr>
-        <td></td>
-        <td>{{produto.codigo}}</td>
-        <td>{{produto.nome}}</td>
-        <td>{{produto.categoria}}</td>
-        <td>{{produto.marca}}</td>
-        <td>R$ {{produto.preco}}</td>
-        <td>{{produto.estoque}}</td>
-      </tr>
-    </ng-container>
-  </tbody>
 </table>
+
+<ng-container *ngFor="let produto of produtos" class="col-md-12">
+  <nb-accordion>
+    <nb-accordion-item>
+      <nb-accordion-item-header>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>{{produto.codigo}}</td>
+              <td>{{produto.nome}}</td>
+              <td>{{produto.categoria}}</td>
+              <td>{{produto.marca}}</td>
+              <td>R$ {{produto.preco}}</td>
+              <td>{{produto.estoque}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </nb-accordion-item-header>
+
+      <nb-accordion-item-body>
+        <ngx-card-info-resumido-produtos></ngx-card-info-resumido-produtos>
+      </nb-accordion-item-body>
+
+    </nb-accordion-item>
+  </nb-accordion>
+
+</ng-container>
